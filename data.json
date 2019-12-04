@@ -2,10 +2,10 @@
     "islogin":true,
     "title": "基本人物",
     "list":[
-        {"name":"sing","age":20,"discript":"某国外演员"},
-        {"name":"kit","age":21,"discript":"某国外歌手"},
-        {"name":"xz","age":22,"discript":"某国内演员"},
-        {"name":"yb","age":23,"discript":"某国内主持人"}
+        {"name":"a","age":20,"discript":"1"},
+        {"name":"b","age":21,"discript":"2"},
+        {"name":"c","age":22,"discript":"3"},
+        {"name":"c","age":23,"discript":"4"}
     ]
 }
 

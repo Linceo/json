@@ -36,3 +36,10 @@ $确认密码: 123456
 然后找到rd_rsa和id_rsa.pub所在目录打开idb_rsa.pub（可以把后缀名改成.txt),登录自己的GitHub账号，找到Settings,
 
 进入Settings后,点击SSH and GPG keys,然后再点击右上角添加新密钥按钮New SSH key,
+
+
+另外，这里有个坑需要注意一下，就是在上面第七步创建远程仓库的时候，如果你勾选了Initialize this repository with a README（就是创建仓库的时候自动给你创建一个README文件），那么到了第九步你将本地仓库内容推送到远程仓库的时候就会报一个to   https://github.com/sdc123456789/xiaobin的错
+
+ 这是由于你新创建的那个仓库里面的README文件不在本地仓库目录中，这时我们可以通过以下命令先将内容合并以下：
+
+$ git pull --rebase origin master
