@@ -1,3 +1,7 @@
+
+
+/**
+
 //1, npm i express -S
 //2, npm i body-parser -S
 var express=require('express');
@@ -178,11 +182,16 @@ app.post('/api/order/success',(req,res)=>{
     })
 })
 
+ * 
+ */
+
 
 
 /*
 时间格式化
 */
+
+/** 
 Date.prototype.Format = function (fmt) { //author: meizz
     var o = {
         "M+": this.getMonth() + 1, //月份
@@ -211,3 +220,5 @@ var server = app.listen(3002, function () {
  
     console.log('Example app listening at http://localhost', host, port);
 })
+
+*/

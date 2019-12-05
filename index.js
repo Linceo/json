@@ -23,7 +23,7 @@ var questions=[
     age:13
 }];
  
-//写个接口123
+//写个接口
 app.get('/api',function(req,res){
     res.status(200),
     res.json(questions)
@@ -37,4 +37,4 @@ var server = app.listen(8081, function () {
    
     console.log("应用实例，访问地址为 http://%s:%s", host, port)
    
-  })
+})
